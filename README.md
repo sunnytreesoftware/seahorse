@@ -1,5 +1,5 @@
 <h1 align="center">Seahorse</h1>
-<p align="center"><img src="./publishable/assets/images/seahorse.svg" height="200"></p>
+<p align="center"><img src="./publishable/assets/images/seahorse.svg" height="150"></p>
 <p align="center"><a href="https://travis-ci.com/sunnytreesoftware/seahorse"><img src="https://travis-ci.com/sunnytreesoftware/searhorse.svg?branch=master"</a>
 <a href="https://packagist.org/packages/sunnytreesoftware/seahorse"><img src="https://poser.pugx.org/sunnytreesoftware/seahorse/d/total.svg"></a>
 <a href="https://packagist.org/packages/sunnytreesoftware/seahorse"><img src="https://poser.pugx.org/sunnytreesoftware/seahorse/v/stable"></a>
