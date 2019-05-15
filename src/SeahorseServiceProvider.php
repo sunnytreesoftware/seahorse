@@ -14,6 +14,7 @@ class SeahorseServiceProvider extends ServiceProvider
     public function register()
     {
         $this->publishes([__DIR__.'/../publishable/assets' => public_path('assets')]);
+        $this->publishes([__DIR__.'/../publishable/app' => app_path()]);
     }
 
     /**
