@@ -10,29 +10,50 @@
 
 ## Installation  
 Install Laravel  
-`
+```bash
 laravel new seahorse
-`  
+```  
 
 Laravel Auth  
-`
+```bash
 php artisan make:auth  
-`
+```  
 
 Migrations  
-`
+```bash
 php artisan migrate  
-`  
+```  
 
 Install Seahorse
-`
+```bash
 composer require sunnytreesoftware/seahorse
-`  
+```  
 
 Publish Assets  
-`
+```bash
 php artisan vendor:publish --provider="Sunnytree\Seahorse\SeahorseServiceProvider"
-`
+```  
 
-Go to your-website.com/seahorse
+Run Migrations Again  
+```bash
+php artisan migrate
+```   
 
+Open the file app/Providers/RouteServiceProvider.php and find the lines:  
+```php
+protected function mapWebRoutes()
+{
+    Route::middleware('web')
+        ->namespace($this->namespace)
+        ->group(base_path('routes/web.php'));
+}
+```  
+
+Change this line:  
+```php
+->group(base_path('routes/web.php'));
+```  
+to:  
+```php
+->group(base_path('routes/seahorse.php'));
+```
