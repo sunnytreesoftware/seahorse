@@ -1,0 +1,24 @@
+{
+    "name": "sunnytreesoftware/seahorse",
+    "description": "Seahorse is a Content Management System built with Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Stratton",
+            "email": "mike@mikestratton.net"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Sunnytree\\Seahorse\\": "src/"
+      }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sunnytree\\Seahorse\\SeahorseServiceProvider"
+            ]
+        }
+    }
+}
