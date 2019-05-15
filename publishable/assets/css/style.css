@@ -31,7 +31,7 @@ html, body {
 
 .content {
     text-align: center;
-    background-image: radial-gradient(white, white, rgba(255,255,255, 0.8));
+    background-image: radial-gradient(white, white, rgba(255,255,255, 0.6));
     padding:60px;
     border-radius:32px;
 }
@@ -42,7 +42,7 @@ html, body {
 }
 
 .title img {
-    height:64px;
+    height:128px;
 }
 
 .title p {

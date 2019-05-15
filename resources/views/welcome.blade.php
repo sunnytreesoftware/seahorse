@@ -33,8 +33,8 @@
                 <div class="title m-b-md">
                     Seahorse<br>
                     <img src="assets/images/seahorse.svg" alt="Seahorse Logo">
-                    <p>Photo Profile User Management System for Laravel</p>
-                </div>Seahorse is a Content Management System built with Laravel"
+                    <p>Seahorse is a Content Management System built with Laravel</p>
+                </div>
 
             </div>
         </div>
