@@ -5,7 +5,7 @@
 <a href="https://packagist.org/packages/sunnytreesoftware/seahorse"><img src="https://poser.pugx.org/sunnytreesoftware/seahorse/v/stable"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a></p>
 
-<h2 align="center">Photo Profile Management System for Laravel </h2>
+<h2 align="center">Seahorse is a Content Management System built with Laravel </h2>
 <br>
 
 ## Installation  
